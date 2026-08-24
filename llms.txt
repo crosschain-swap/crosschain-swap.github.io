@@ -1,0 +1,24 @@
+# Crosschain Swap — Swap Assets Across Chains Reference
+
+> Move value across blockchains in one flow by combining a bridge and swaps — for example ETH on Ethereum to USDC on Arbitrum — with route aggregators comparing paths.
+
+## Key Facts
+- A cross-chain swap = bridge (carries value between chains) + swaps on one or both sides, in one flow
+- Different from a same-chain swap: spans two chains, needs a bridge step, pays gas on both chains
+- Route aggregators compare paths across bridges and DEXs, estimating output, fees, gas and time
+- Costs: source-chain gas + bridge fee + DEX pool fees + price impact/slippage + destination-chain gas
+- You need the native gas token on both chains involved
+- Non-custodial: your wallet signs; adds smart-contract, bridge and relayer risk
+
+## Internal Sections & App Navigation
+- [What is a cross-chain swap?](#what)
+- [How it works](#how)
+- [Route aggregation](#routing)
+- [Chains & assets](#assets)
+- [Fees, slippage & gas](#fees)
+- [Is it safe?](#safety)
+- [FAQ](#faq)
+- [Open Crosschain Swap App](dashboard/index.html)
+
+## Disclaimer
+Independent page. A generic explainer of cross-chain swaps; not affiliated with any specific bridge, aggregator or protocol. Not financial advice.

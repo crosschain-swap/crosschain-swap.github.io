@@ -1,0 +1,12 @@
+{
+  "name": "Crosschain Swap",
+  "short_name": "Crosschain Swap",
+  "description": "Move value across blockchains in one flow by combining a bridge and swaps.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "lang": "en",
+  "background_color": "#0a0e14",
+  "theme_color": "#0a0e14",
+  "icons": [{ "src": "usdc.png", "sizes": "any", "type": "image/png", "purpose": "any" }]
+}
